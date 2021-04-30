@@ -1,0 +1,36 @@
+.list-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+.card-container {
+  box-shadow: 5px 5px 5px darkgray;
+  margin: 4px 0;
+}
+
+.remove-button {
+  border-radius: 50%;
+  box-sizing: border-box;
+  font-size: small;
+  font-weight: 600;
+  margin-left: 2px;
+  padding: 0 5px 1px;
+}
+
+.filtered-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 4px;
+}
+
+.filtered-content {
+  margin: 4px;
+}
+
+.card-button {
+  font-weight: 900;
+}

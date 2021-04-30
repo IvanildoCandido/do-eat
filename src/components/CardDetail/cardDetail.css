@@ -1,0 +1,29 @@
+@media ( min-width : 1024px ) {
+  .card-detail {
+    max-width: 80%;
+    margin: 10px auto;
+    margin-bottom: 100px;
+  }
+  .recipe-img{
+    max-height: 500px;
+    margin: auto;
+  }
+  .recipe-video{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .recipe-video iframe {
+    width: 90%;
+    height: 500px;
+  }
+}
+.btn-recipe {
+  bottom: 0;
+  position: fixed;
+}
+
+.card-detail h4 {
+  margin: 15px 0;
+  text-align: center;
+}
